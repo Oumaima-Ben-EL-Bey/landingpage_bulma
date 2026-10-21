@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Java im Schlaf: Senior Developer in nur drei Nächten ic</title>
+    <link rel="icon" href="img/02-cd-disc.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <!-- Logo-Text oder Produktname und Navigation -->
+    <nav class="navbar is-primary">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#angebot"><strong>Java im Schlaf</strong></a>
+
+            <a role="button" class="navbar-burger" aria-label="Menü" data-target="hauptmenue">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <!-- Links zu den Abschnitten der Seite und zu kursinhalt.html -->
+        <div id="hauptmenue" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#angebot">Angebot</a>
+                <a class="navbar-item" href="#inhalt">Was dich erwartet</a>
+                <a class="navbar-item" href="#preise">Preise</a>
+                <a class="navbar-item" href="#erfahrungen">Erfahrungen</a>
+                <a class="navbar-item" href="#newsletter">Newsletter</a>
+                <a class="navbar-item" href="kursinhalt.html">Kursinhalt</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section id="angebot" class="hero is-medium has-background-warning-light">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <!-- Hauptüberschrift, Slogan, Produktbild, Kaufen-Button -->
+                    <div class="column">
+                        <h1 class="title is-1">Java im Schlaf</h1>
+                        <p class="subtitle"><em>Werde Senior Developer, während du schläfst.</em></p>
+                        <div class="content">
+                            <p>Unsere drei <strong>Hypnose-Lern-CDs</strong> bringen dir <strong>Java</strong> bei,
+                                während
+                                du schläfst. Einfach CD einlegen,
+                                Augen zu, und am
+                                nächsten Morgen schreibst du Code wie ein Profi. Nach nur drei Nächten bist du <a
+                                        href="#star">garantiert<sup>*</sup></a> bei Google eingestellt.</p>
+                            <p>Von unseren Schlafforschern bewiesen: Du lernst n Java-Themen in nur O(log<sub>2</sub> n)
+                                Nächten.</p>
+
+                            <p>Statt
+                                <del>1.999 €</del>
+                                heute nur <strong class="preis">49 €</strong></p>
+                            <p>Nur noch
+                                3 Boxen
+                                auf Lager! Angebot endet um Mitternacht.
+                            </p>
+                        </div>
+                        <button id="hauptbutton" class="button is-primary is-large">Jetzt kaufen und heute
+                            Nacht einschlafen
+                        </button>
+
+                    </div>
+                    <div class="column">
+                        <figure class="produktbild">
+                            <img src="img/03-box-set.svg"
+                                 alt="Drei Hypnose-Lern-CDs Java im Schlaf: Vol. 1 Grundlagen, Vol. 2 Objekte und Klassen, Vol. 3 Streams und Lambdas">
+                            <span class="badge tag is-danger is-large">-97 %</span>                        </figure>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inhalt" class="section">
+        <div class="container">
+            <h2 class="title is-2">Was dich erwartet</h2>
+            <!-- Was erwartet dich? Liste mit den Inhalten -->
+            <div class="columns columns is-8-desktop">
+                <div class="column">
+                    <h3 class="title is-4">So funktioniert es</h3>
+
+                    <img src="img/06-icons.svg"
+                         alt="Fünf Symbole: Mond, Kopfhörer, Hypnosespirale, Kaffeetasse und geschweifte Klammern">
+                    <div class="content">
+                        <ol>
+                            <li><strong>Einschlafen:</strong> Leg dich ins Bett und mach das Licht aus.</li>
+                            <li><strong>Anhören:</strong> Starte die CD. Kopfhörer auf, Lautstärke leise.</li>
+                            <li><strong>Hypnose:</strong> Unsere Stimme bringt Java direkt in dein Unterbewusstsein.
+                            </li>
+                            <li><strong>Aufwachen:</strong> Nach 8 Stunden Tiefschlaf ist alles gespeichert.</li>
+                            <li><strong>Codieren:</strong> Öffne IntelliJ und staune, was du plötzlich kannst.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="column mt-6">
+                    <h3 class="title is-4">Das steckt in der Box</h3>
+                    <div class="content">
+                        <ul>
+                            <li>Vol. 1: Grundlagen</li>
+                            <li>Vol. 2: Objekte und Klassen</li>
+                            <li>Vol. 3: Streams und Lambdas</li>
+                            <li>Gratis-Schlafmaske mit Java-Logo</li>
+                            <li>Zertifikat „Senior Developer“ zum Selbstausdrucken</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="preise" class="section">
+        <div class="container">
+            <!-- Preistabelle mit drei Paketen -->
+            <h2 class="title is-2">Preise</h2>
+
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <div class="table-container">
+
+                        <table class="table is-striped is-hoverable is-fullwidth">
+                            <caption><strong>Unsere Pakete im Vergleich</strong></caption>
+                            <thead>
+                            <tr>
+                                <th>Paket</th>
+                                <th>CDs</th>
+                                <th>Extras</th>
+                                <th>Preis</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Powernap</td>
+                                <td>Vol. 1</td>
+                                <td>Keine</td>
+                                <td>
+                                    <del>499 €</del>
+                                    <strong class="preis">19 €</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Durchschläfer</td>
+                                <td>Vol. 1 bis 3</td>
+                                <td>Schlafmaske mit Java-Logo</td>
+                                <td>
+                                    <del>1.999 €</del>
+                                    <strong class="preis highlight">49 €</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Winterschlaf</td>
+                                <td>Vol. 1 bis 3</td>
+                                <td>Schlafmaske, Zertifikat und ein persönlicher Hypnotiseur, der nachts an deinem Bett
+                                    flüstert
+                                </td>
+                                <td>
+                                    <del>9.999 €</del>
+                                    <strong class="preis">4.999 €</strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <aside class="column is-narrow">
+                    <figure class="image is-128x128 mx-auto">
+                        <img src="img/07-schlafmaske.svg" alt="Siegel: Gratis Schlafmaske">
+                    </figure>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <section id="erfahrungen" class="section">
+        <div class="container">
+            <h2 class="title is-2">Das sagen unsere Kund:innen</h2>
+
+            <!-- Stimmen zufriedener Kund:innen -->
+            <div class="columns is-multiline">
+
+                <div class="column is-half-tablet is-one-third-desktop">
+                    <div class="card">
+                        <div class="card-content">
+
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img class="is-rounded" src="img/CustomerKevin.jpg" alt="Foto von Kevin">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-5">Kevin, 19</p>
+                                    <p class="subtitle is-6">Teamleiter bei Google</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <blockquote>„Ich habe am Freitag die erste CD eingelegt und war am Montag Teamleiter bei
+                                    Google.“
+                                </blockquote>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half-tablet is-one-third-desktop">
+                    <div class="card">
+                        <div class="card-content">
+
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img class="is-rounded" src="img/CustomerSteve.jpg" alt="Foto von Steve">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-5">Steve, 42</p>
+                                    <p class="subtitle is-6">Senior Developer</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <blockquote>„Seit der dritten Nacht rede ich im Schlaf nur noch in Lambdas. Meine Frau
+                                    ist
+                                    begeistert.“
+                                </blockquote>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-half-tablet is-one-third-desktop">
+                    <div class="card">
+                        <div class="card-content">
+
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img class="is-rounded" src="img/CustomerSabine.jpg" alt="Foto von Kevin">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-5">Sabine, 35</p>
+                                    <p class="subtitle is-6">sehr ausgeschlafen</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <blockquote>„Ich bin schon nach fünf Minuten eingeschlafen. Genau so soll es sein.“
+                                </blockquote>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section">
+        <div class="container">
+            <h2 class="title is-2">Newsletter</h2>
+            <p class="mb-4">Trag dich ein und bekomm jede Nacht einen Java-Tipp direkt ins Unterbewusstsein.</p>
+            <!-- Newsletter-Formular -->
+
+            <form>
+
+                <div class="field">
+                    <label class="label" for="email">Deine E-Mail-Adresse</label>
+                    <div class="control">
+                        <input class="input" type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="schlafzeit">Wann gehst du schlafen?</label>
+                    <div class="control">
+                        <div class="select is-fullwidth">
+                            <select id="schlafzeit" name="schlafzeit">
+                                <option value="Vor 22 Uhr">Vor 22 Uhr</option>
+                                <option value="Zwischen 22 und 0 Uhr">Zwischen 22 und 0 Uhr</option>
+                                <option value="Nach Mitternacht">Nach Mitternacht</option>
+                                <option value="Ich schlafe nie, ich bin Senior Developer">Ich schlafe nie, ich bin
+                                    Senior Developer
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="field">
+                    <div class="control">
+                        <label class="checkbox">
+                            <input type="checkbox" id="terms" name="terms">
+                            Ich bin einverstanden, dass ihr mir nachts Werbung ins Ohr flüstert.
+                        </label>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="control">
+                        <button type="submit" class="button is-primary">Senden</button>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p><sup id="star">*</sup> <small>Garantie gilt nicht in dieser Galaxie. Nicht beim Autofahren anhören.</small>
+        </p>
+        <p><small>Falls die CDs nicht wirken:</small> <a href="https://docs.oracle.com/en/java/" target="_blank">Offizielle
+            Java-Dokumentation</a></p>
+        <p><small>© 2026 Java im Schlaf GmbH</small></p>
+    </div>
+</footer>
+<script src="burger.js"></script>
+</body>
+</html>

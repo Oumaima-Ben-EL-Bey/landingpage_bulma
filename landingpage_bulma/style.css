@@ -1,0 +1,44 @@
+.media-left img {
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+:root, [data-theme="light"] {
+    --bulma-primary-h: 14deg;
+    --bulma-primary-s: 88%;
+    --bulma-primary-l: 40%;
+    --bulma-primary-invert-l: 100%;
+}
+.navbar.is-primary {
+    --bulma-navbar-burger-color: var(--bulma-primary-invert-l);
+}
+
+.produktbild {
+    position: relative;
+    display: inline-block;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transform: rotate(15deg);
+}
+
+#hauptbutton {
+    white-space: normal;
+    height: auto;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
