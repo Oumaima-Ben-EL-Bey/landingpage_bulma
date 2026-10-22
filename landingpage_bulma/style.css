@@ -9,9 +9,7 @@
     --bulma-primary-l: 40%;
     --bulma-primary-invert-l: 100%;
 }
-.navbar.is-primary {
-    --bulma-navbar-burger-color: var(--bulma-primary-invert-l);
-}
+.navbar.is-primary .navbar-burger { color: white; }
 
 .produktbild {
     position: relative;
